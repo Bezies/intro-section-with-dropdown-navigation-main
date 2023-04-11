@@ -1,0 +1,524 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    background-image: url(images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: 20px 35px;
+}
+
+
+/* HEADER  */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.navig-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    position: relative;
+    margin: 0px auto;
+}
+
+.menu ul {
+    display: flex;
+    margin-left: 20px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+.menu ul a,
+.log a {
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.menu ul a:hover,
+.log a:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+/* FEATURES  */
+
+.features-down {
+    padding-right: 15px;
+    background-image: url(images/icon-arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.features-up {
+    padding-right: 15px;
+    background-image: url(images/icon-arrow-up.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+ul .menu-features {
+    background-color: white;
+    box-shadow: 0px 0px 3px hsl(0, 0%, 41%, 40%);
+    border-radius: 5px;
+    padding: 0 20px;
+    position: absolute;
+    left: -10px;
+    top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1;
+}
+
+ul .menu-features-off {
+    display: none;
+    opacity: 0;
+}
+
+ul .menu-features {
+    padding-left: 0;
+}
+
+ul .menu-features li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 30px;
+}
+
+ul .menu-features a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    font-size: 13px;
+}
+
+#todo {
+    background-image: url(images/icon-todo.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#calendar {
+    background-image: url(images/icon-calendar.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#reminders {
+    background-image: url(images/icon-reminders.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#planning {
+    background-image: url(images/icon-planning.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+/* COMPANY  */
+
+ul .company-down {
+    padding-right: 15px;
+    background-image: url(images/icon-arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+ul .company-up {
+    padding-right: 15px;
+    background-image: url(images/icon-arrow-up.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+ul .menu-company {
+    background-color: white;
+    box-shadow: 0px 0px 3px hsl(0, 0%, 41%, 40%);
+    border-radius: 5px;
+    padding: 0 20px;
+    position: absolute;
+    left: 150px;
+    top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul .menu-company-off {
+    display: none;
+}
+
+ul .menu-company ul {
+    padding-left: 0;
+}
+
+ul .menu-company li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+ul .menu-company a {
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    font-size: 13px;
+}
+
+
+/* HAMBURGER ICON */
+
+#hamburger,
+#close {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+/* BUTTON MENU  */
+
+#register {
+    color: hsl(0, 0%, 41%);
+    border: 1px solid hsl(0, 0%, 41%);
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#register:hover {
+    color: hsl(0, 0%, 8%);
+    border: 1px solid hsl(0, 0%, 8%);
+}
+
+
+/* MAIN  */
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* REMOTE WORK  */
+
+.remote-work {
+    width: 50%;
+    margin: 80px auto 20px 150px;
+}
+
+.remote-work h1 {
+    font-size: 70px;
+    width: 80%;
+}
+
+.remote-work p {
+    color: hsl(0, 0%, 41%);
+    width: 80%;
+}
+
+#learn {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-weight: 700;
+    padding: 15px 25px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#learn:hover {
+    background-color: white;
+    color: hsl(0, 0%, 8%);
+    border: 1px solid hsl(0, 0%, 8%);
+}
+
+/* CLIENT  */
+
+.client ul {
+    display: flex;
+    padding-left: 0;
+}
+
+.client li {
+    list-style-type: none;
+    margin: 50px 20px;
+}
+
+
+/* HERO DESKTOP  */
+
+.hero-desktop {
+    background-image: url(images/image-hero-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40%;
+    height: 80vh;
+}
+
+
+
+
+
+/* FOOTER  */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 750px) {
+
+    /* HEADER  */
+
+    body {
+        background-position: 20px 40px;
+    }
+
+    header {
+        width: 100%;
+        margin: 0;
+    }
+
+    #logo {
+        top: 40px;
+        left: 40px;
+    }
+
+    .navig-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 60%;
+        height: 120vh;
+        margin: 0px auto;
+        position: absolute;
+        background-color: white;
+        top: 0px;
+        right: -500px;
+        box-shadow: 0px 0px 3px hsl(0, 0%, 41%, 40%);
+        z-index: 10;
+        transition: right 0.6s ease;
+        opacity: 1;
+    }
+    
+    .navig-bar--on {
+        right: 0;
+    }
+
+
+
+
+
+    #links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 20px;
+        margin-top: 100px;
+        padding-left: 0;
+    }
+
+    .menu ul li {
+        list-style-type: none;
+        margin: 15px 15px;
+    }
+
+    .menu ul a {
+        color: hsl(0, 0%, 41%);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .menu ul a:hover,
+    .log a:hover {
+        color: hsl(0, 0%, 8%);
+    }
+
+    .log {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .log a {
+        color: hsl(0, 0%, 41%);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    #register {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+
+
+
+    /* MENU DEROULANT  */
+
+
+
+    #hamburger {
+        display: block;
+        width: 30px;
+        height: 20px;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+
+    #close {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 35px;
+        right: 40px;
+    }
+
+
+
+    /* FEATURES  */
+
+    ul .menu-features {
+        box-shadow: 0px 0px 0px white;
+        position: relative;
+        left: -30px;
+        top: 0px;
+
+    }
+
+    /* COMPANY  */
+
+    ul .menu-company {
+        box-shadow: 0px 0px 0px white;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+
+    /* MAIN  */
+
+    main {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    /* REMOTE WORK  */
+
+    .remote-work {
+        width: 100%;
+        margin: 0px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .remote-work h1 {
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .remote-work p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #learn {
+        padding: 15px 25px;
+        margin: 20px auto;
+
+    }
+
+    #learn:hover {
+        background-color: white;
+        color: hsl(0, 0%, 8%);
+        border: 1px solid hsl(0, 0%, 8%);
+    }
+
+    /* CLIENT  */
+
+    .client {
+        margin: 0 auto;
+    }
+
+
+    .client li {
+        margin: 20px 20px;
+    }
+
+
+    /* HERO DESKTOP  */
+
+    .hero-desktop {
+        background-image: url(images/image-hero-mobile.png);
+        background-position: center;
+        background-size: contain;
+        margin: 0 auto;
+        width: 100%;
+        height: 400px;
+        margin-top: 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .log {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    /* CLIENT  */
+
+    .client img {
+        width: 50px;
+    }
+
+}
